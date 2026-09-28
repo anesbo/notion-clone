@@ -1,0 +1,22 @@
+{
+  "search": "Search",
+  "settings": "Settings & members",
+  "new_page": "New page",
+  "trash": "Trash",
+  "templates": "Templates",
+  "empty_trash": "Trash is empty",
+  "restore": "Restore",
+  "delete_permanently": "Delete permanently",
+  "add_subpage": "Add a subpage",
+  "type_slash": "Type '/' for commands...",
+  "page_history": "Page history",
+  "restore_version": "Restore this version",
+  "properties": "Properties",
+  "add_property": "Add property",
+  "add_view": "Add view",
+  "filter": "Filter",
+  "sort": "Sort",
+  "public_share": "Share to web",
+  "workspace_access": "Workspace access",
+  "private_access": "Private"
+}

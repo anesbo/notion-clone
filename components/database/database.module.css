@@ -1,0 +1,148 @@
+.databaseWrapper {
+  margin: 24px 0;
+  border-top: 1px solid var(--color-border);
+  padding-top: 16px;
+}
+
+.viewTabBar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 8px;
+}
+
+.viewTab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: none;
+  font-size: 13.5px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.viewTab:hover {
+  background: var(--color-canvas-hover);
+  color: var(--color-text);
+}
+
+.viewTab.active {
+  color: var(--color-text);
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-text);
+  border-radius: 0;
+}
+
+/* Table View Styles */
+.tableContainer {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  text-align: start;
+}
+
+.th {
+  background: var(--color-canvas-secondary);
+  border-bottom: 1px solid var(--color-border);
+  border-inline-end: 1px solid var(--color-border);
+  padding: 6px 10px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.td {
+  border-bottom: 1px solid var(--color-border);
+  border-inline-end: 1px solid var(--color-border);
+  padding: 6px 10px;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+.cellInput {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* Kanban Board Styles */
+.kanbanBoard {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 8px 0;
+  min-height: 400px;
+}
+
+.kanbanColumn {
+  width: 260px;
+  flex-shrink: 0;
+  background: var(--color-canvas-secondary);
+  border-radius: var(--radius-md);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.columnHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text);
+  padding-bottom: 4px;
+}
+
+.kanbanCard {
+  background: var(--color-canvas);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  box-shadow: var(--shadow-sm);
+  cursor: grab;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.kanbanCard:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.cardTitle {
+  font-size: 13.5px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.addCardBtn {
+  background: transparent;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 6px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: 13px;
+  text-align: center;
+}
+
+.addCardBtn:hover {
+  background: var(--color-canvas-hover);
+  color: var(--color-text);
+}

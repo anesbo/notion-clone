@@ -1,0 +1,45 @@
+@import './reset.css';
+@import './variables.css';
+@import './theme.css';
+
+/* Directional and typography adaptation */
+html {
+  font-family: var(--font-sans);
+  background-color: var(--color-canvas);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[dir='rtl'] {
+  font-family: var(--font-arabic);
+}
+
+::selection {
+  background-color: var(--color-selection);
+}
+
+/* Notion Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Bi-directional logical adjustments */
+[dir='rtl'] .icon-flip-rtl {
+  transform: scaleX(-1);
+}

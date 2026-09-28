@@ -1,0 +1,22 @@
+{
+  "search": "بحث",
+  "settings": "الإعدادات والأعضاء",
+  "new_page": "صفحة جديدة",
+  "trash": "سلة المهملات",
+  "templates": "القوالب",
+  "empty_trash": "سلة المهملات فارغة",
+  "restore": "استعادة",
+  "delete_permanently": "حذف نهائي",
+  "add_subpage": "إضافة صفحة فرعية",
+  "type_slash": "اكتب '/' للأوامر السريعة...",
+  "page_history": "سجل الصفحة",
+  "restore_version": "استعادة هذه النسخة",
+  "properties": "الخصائص",
+  "add_property": "إضافة خاصية",
+  "add_view": "إضافة عرض",
+  "filter": "تصفية",
+  "sort": "ترتيب",
+  "public_share": "مشاركة عبر الويب",
+  "workspace_access": "وصول لمساحة العمل",
+  "private_access": "خاص"
+}

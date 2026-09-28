@@ -1,0 +1,58 @@
+/* Notion Exact 1:1 Light Mode */
+:root,
+[data-theme='light'] {
+  --color-canvas: #FFFFFF;
+  --color-canvas-secondary: #F7F6F3;
+  --color-canvas-hover: #EFEFED;
+  --color-canvas-active: #E3E2DE;
+  
+  --color-border: #E9E9E8;
+  --color-border-darker: #D3D3D1;
+
+  --color-text: #37352F;
+  --color-text-secondary: #787774;
+  --color-text-muted: #9B9A97;
+  
+  --color-accent-blue: #2383E2;
+  --color-accent-blue-hover: #1D6FBF;
+  --color-accent-blue-subtle: #EBF5FE;
+
+  --color-accent-red: #EB5757;
+  --color-accent-red-subtle: #FDF5F5;
+
+  --color-callout-bg: #F1F1EF;
+  --color-code-bg: #F7F6F3;
+  --color-selection: rgba(35, 131, 226, 0.2);
+
+  --scrollbar-thumb: #D3D1CB;
+  --scrollbar-thumb-hover: #AEACA6;
+}
+
+/* Notion Exact 1:1 Dark Mode */
+[data-theme='dark'] {
+  --color-canvas: #191919;
+  --color-canvas-secondary: #202020;
+  --color-canvas-hover: #2C2C2C;
+  --color-canvas-active: #373737;
+
+  --color-border: #2F2F2F;
+  --color-border-darker: #3E3E3E;
+
+  --color-text: #D4D4D4;
+  --color-text-secondary: #808080;
+  --color-text-muted: #5A5A5A;
+
+  --color-accent-blue: #4DABF7;
+  --color-accent-blue-hover: #339AF0;
+  --color-accent-blue-subtle: #1C2733;
+
+  --color-accent-red: #FF6B6B;
+  --color-accent-red-subtle: #2D1A1A;
+
+  --color-callout-bg: #222222;
+  --color-code-bg: #202020;
+  --color-selection: rgba(77, 171, 247, 0.3);
+
+  --scrollbar-thumb: #373737;
+  --scrollbar-thumb-hover: #505050;
+}
